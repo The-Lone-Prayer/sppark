@@ -60,3 +60,9 @@ dkms.conf
 # Rust build 
 Cargo.lock
 target
+
+
+build
+.cache
+.vscode
+.clangd
