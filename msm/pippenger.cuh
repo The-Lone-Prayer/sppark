@@ -9,8 +9,8 @@
 #include <cooperative_groups.h>
 #include <cassert>
 
-#include <util/vec2d_t.hpp>
-#include <util/slice_t.hpp>
+#include "../util/vec2d_t.hpp"
+#include "../util/slice_t.hpp"
 
 #include "sort.cuh"
 #include "batch_addition.cuh"
@@ -318,9 +318,9 @@ void breakdown<scalar_t>(vec2d_t<uint32_t> digits, const scalar_t scalars[],
 
 #include <vector>
 
-#include <util/exception.cuh>
-#include <util/rusterror.h>
-#include <util/gpu_t.cuh>
+#include "../util/exception.cuh"
+#include "../util/rusterror.h"
+#include "../util/gpu_t.cuh"
 
 template<class bucket_t, class point_t, class affine_t, class scalar_t,
          class affine_h = class affine_t::mem_t,

@@ -8,6 +8,7 @@
 #include <iostream>
 #include <iomanip>
 #include <sstream>
+#include "util/exception.cuh"
 
 class cuda_timer_t {
     cudaEvent_t begin, end;
